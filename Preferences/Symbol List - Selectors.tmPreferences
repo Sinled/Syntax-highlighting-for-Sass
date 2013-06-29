@@ -10,8 +10,12 @@
 	<dict>
 		<key>showInSymbolList</key>
 		<integer>1</integer>
+		<key>showInIndexedSymbolList</key>
+		<integer>1</integer>
 		<key>symbolTransformation</key>
 		<string>s/(.*?)/$1/</string>
+		<key>symbolIndexTransformation</key>
+		<string>/[#.]([A-Za-z0-9_~]+)/$1/;</string>
 	</dict>
 	<key>uuid</key>
 	<string>71B52B90-82BB-11E2-9E96-0800200C9A66</string>
